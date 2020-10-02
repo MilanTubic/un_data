@@ -1,0 +1,207 @@
+Country Code,"Country Name, Abbreviation",ISO2-digit Alpha,ISO3-digit Alpha,End Valid Year
+0,World,WL,WLD,Now
+8,Albania,AL,ALB,Now
+20,Andorra,AD,AND,Now
+31,Azerbaijan,AZ,AZE,Now
+32,Argentina,AR,ARG,Now
+36,Australia,AU,AUS,Now
+40,Austria,AT,AUT,Now
+44,Bahamas,BS,BHS,Now
+48,Bahrain,BH,BHR,Now
+50,Bangladesh,BD,BGD,Now
+56,Belgium,BE,BEL,Now
+60,Bermuda,BM,BMU,Now
+64,Bhutan,BT,BTN,Now
+68,Bolivia (Plurinational State of),BO,BOL,Now
+70,Bosnia Herzegovina,BA,BIH,Now
+72,Botswana,BW,BWA,Now
+76,Brazil,BR,BRA,Now
+84,Belize,BZ,BLZ,Now
+90,Solomon Isds,SB,SLB,Now
+92,Br. Virgin Isds,VG,VGB,Now
+96,Brunei Darussalam,BN,BRN,Now
+97,EU-28,EU,EU2,Now
+100,Bulgaria,BG,BGR,Now
+104,Myanmar,MM,MMR,Now
+108,Burundi,BI,BDI,Now
+112,Belarus,BY,BLR,Now
+116,Cambodia,KH,KHM,Now
+120,Cameroon,CM,CMR,Now
+124,Canada,CA,CAN,Now
+136,Cayman Isds,KY,CYM,Now
+140,Central African Rep.,CF,CAF,Now
+144,Sri Lanka,LK,LKA,Now
+148,Chad,TD,TCD,Now
+152,Chile,CL,CHL,Now
+156,China,CN,CHN,Now
+162,Christmas Isds,CX,CXR,Now
+170,Colombia,CO,COL,Now
+178,Congo,CG,COG,Now
+180,Dem. Rep. of the Congo,CD,COD,Now
+188,Costa Rica,CR,CRI,Now
+191,Croatia,HR,HRV,Now
+192,Cuba,CU,CUB,Now
+196,Cyprus,CY,CYP,Now
+203,Czechia,CZ,CZE,Now
+208,Denmark,DK,DNK,Now
+212,Dominica,DM,DMA,Now
+214,Dominican Rep.,DO,DOM,Now
+218,Ecuador,EC,ECU,Now
+222,El Salvador,SV,SLV,Now
+226,Equatorial Guinea,GQ,GNQ,Now
+231,Ethiopia,ET,ETH,Now
+232,Eritrea,ER,ERI,Now
+233,Estonia,EE,EST,Now
+238,Falkland Isds (Malvinas),FK,FLK,Now
+239,South Georgia and the South Sandwich Islands,GS,SGS,Now
+246,Finland,FI,FIN,Now
+251,France,FR,FRA,Now
+258,French Polynesia,PF,PYF,Now
+260,Fr. South Antarctic Terr.,FQ,ATF,Now
+266,Gabon,GA,GAB,Now
+268,Georgia,GE,GEO,Now
+275,State of Palestine,PS,PSE,Now
+276,Germany,DE,DEU,Now
+292,Gibraltar,GI,GIB,Now
+300,Greece,GR,GRC,Now
+304,Greenland,GL,GRL,Now
+308,Grenada,GD,GRD,Now
+316,Guam,GU,GUM,Now
+320,Guatemala,GT,GTM,Now
+324,Guinea,GN,GIN,Now
+328,Guyana,GY,GUY,Now
+332,Haiti,HT,HTI,Now
+340,Honduras,HN,HND,Now
+344,"China, Hong Kong SAR",HK,HKG,Now
+348,Hungary,HU,HUN,Now
+352,Iceland,IS,ISL,Now
+360,Indonesia,ID,IDN,Now
+364,Iran,IR,IRN,Now
+368,Iraq,IQ,IRQ,Now
+372,Ireland,IE,IRL,Now
+376,Israel,IL,ISR,Now
+381,Italy,IT,ITA,Now
+388,Jamaica,JM,JAM,Now
+392,Japan,JP,JPN,Now
+398,Kazakhstan,KZ,KAZ,Now
+400,Jordan,JO,JOR,Now
+404,Kenya,KE,KEN,Now
+408,Dem. People's Rep. of Korea,KP,PRK,Now
+410,Rep. of Korea,KR,KOR,Now
+414,Kuwait,KW,KWT,Now
+417,Kyrgyzstan,KG,KGZ,Now
+418,Lao People's Dem. Rep.,LA,LAO,Now
+422,Lebanon,LB,LBN,Now
+426,Lesotho,LS,LSO,Now
+428,Latvia,LV,LVA,Now
+430,Liberia,LR,LBR,Now
+434,Libya,LY,LBY,Now
+440,Lithuania,LT,LTU,Now
+442,Luxembourg,LU,LUX,Now
+446,"China, Macao SAR",MO,MAC,Now
+450,Madagascar,MG,MDG,Now
+454,Malawi,MW,MWI,Now
+458,Malaysia,MY,MYS,Now
+462,Maldives,MV,MDV,Now
+466,Mali,ML,MLI,Now
+470,Malta,MT,MLT,Now
+473,"LAIA, nes",N/,N/A,Now
+478,Mauritania,MR,MRT,Now
+480,Mauritius,MU,MUS,Now
+484,Mexico,MX,MEX,Now
+490,"Other Asia, nes",N/A,N/A,Now
+496,Mongolia,MN,MNG,Now
+498,Rep. of Moldova,MD,MDA,Now
+499,Montenegro,ME,MNE,Now
+504,Morocco,MA,MAR,Now
+508,Mozambique,MZ,MOZ,Now
+512,Oman,OM,OMN,Now
+516,Namibia,NA,NAM,Now
+520,Nauru,NR,NRU,Now
+524,Nepal,NP,NPL,Now
+527,"Oceania, nes",N/A,N/A,Now
+528,Netherlands,NL,NLD,Now
+534,Saint Maarten,SX,SXM,Now
+536,Neutral Zone,N/A,N/A,Now
+540,New Caledonia,NC,NCL,Now
+548,Vanuatu,VU,VUT,Now
+554,New Zealand,NZ,NZL,Now
+558,Nicaragua,NI,NIC,Now
+562,Niger,NE,NER,Now
+566,Nigeria,NG,NGA,Now
+568,"Other Europe, nes",N/A,N/A,Now
+577,"Other Africa, nes",N/A,N/A,Now
+579,Norway,NO,NOR,Now
+580,N. Mariana Isds,MP,MNP,Now
+581,United States Minor Outlying Islands,UM,UMI,Now
+586,Pakistan,PK,PAK,Now
+591,Panama,PA,PAN,Now
+598,Papua New Guinea,PG,PNG,Now
+600,Paraguay,PY,PRY,Now
+604,Peru,PE,PER,Now
+608,Philippines,PH,PHL,Now
+616,Poland,PL,POL,Now
+620,Portugal,PT,PRT,Now
+624,Guinea-Bissau,GW,GNB,Now
+634,Qatar,QA,QAT,Now
+637,"North America and Central America, nes",N/A,N/A,Now
+642,Romania,RO,ROU,Now
+643,Russian Federation,RU,RUS,Now
+646,Rwanda,RW,RWA,Now
+652,Saint Barth‚lemy,BL,BLM,Now
+654,Saint Helena,SH,SHN,Now
+659,Saint Kitts and Nevis,KN,KNA,Now
+662,Saint Lucia,LC,LCA,Now
+666,Saint Pierre and Miquelon,PM,SPM,Now
+670,Saint Vincent and the Grenadines,VC,VCT,Now
+674,San Marino,SM,SMR,Now
+678,Sao Tome and Principe,ST,STP,Now
+682,Saudi Arabia,SA,SAU,Now
+686,Senegal,SN,SEN,Now
+688,Serbia,RS,SRB,Now
+690,Seychelles,SC,SYC,Now
+694,Sierra Leone,SL,SLE,Now
+699,India,IN,IND,Now
+702,Singapore,SG,SGP,Now
+703,Slovakia,SK,SVK,Now
+704,Viet Nam,VN,VNM,Now
+705,Slovenia,SI,SVN,Now
+706,Somalia,SO,SOM,Now
+710,South Africa,ZA,ZAF,Now
+716,Zimbabwe,ZW,ZWE,Now
+724,Spain,ES,ESP,Now
+728,South Sudan,SS,SSD,Now
+729,Sudan,SD,SDN,Now
+732,Western Sahara,EH,ESH,Now
+740,Suriname,SR,SUR,Now
+748,Swaziland,SZ,SWZ,Now
+752,Sweden,SE,SWE,Now
+757,Switzerland,CH,CHE,Now
+760,Syria,SY,SYR,Now
+762,Tajikistan,TJ,TJK,Now
+764,Thailand,TH,THA,Now
+768,Togo,TG,TGO,Now
+776,Tonga,TO,TON,Now
+780,Trinidad and Tobago,TT,TTO,Now
+784,United Arab Emirates,AE,ARE,Now
+788,Tunisia,TN,TUN,Now
+792,Turkey,TR,TUR,Now
+795,Turkmenistan,TM,TKM,Now
+796,Turks and Caicos Isds,TC,TCA,Now
+798,Tuvalu,TV,TUV,Now
+800,Uganda,UG,UGA,Now
+804,Ukraine,UA,UKR,Now
+807,TFYR of Macedonia,MK,MKD,Now
+818,Egypt,EG,EGY,Now
+826,United Kingdom,GB,GBR,Now
+834,United Rep. of Tanzania,TZ,TZA,Now
+838,Free Zones,N/A,N/A,Now
+839,Special Categories,N/A,N/A,Now
+842,USA,US,USA,Now
+858,Uruguay,UY,URY,Now
+860,Uzbekistan,UZ,UZB,Now
+862,Venezuela,VE,VEN,Now
+876,Wallis and Futuna Isds,WF,WLF,Now
+882,Samoa,WS,WSM,Now
+887,Yemen,YE,YEM,Now
+894,Zambia,ZM,ZMB,Now
