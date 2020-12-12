@@ -1,49 +1,72 @@
-import concurrent.futures
+#import concurrent.futures
+import concurrent.futures.thread
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from bs4 import BeautifulSoup
 import requests
+from requests.exceptions import HTTPError
 import time
 
-
-def funkcija(prox):
-    urlpr = str("http://google.com")
-    start=time.perf_counter()
-    while round(time.perf_counter() - start) < 1 :
-      try :
-          r = requests.get(urlpr, proxies={"https" : prox, "http" : prox})
-
-          if r.status_code == 200 :
-              print(prox)
-              return prox
-              break
-
-      except Exception as e :
-            print("next")
-            break
+import multiprocessing
 
 
 
-res =requests.get('https://free-proxy-list.net/', headers={'User-Agent' : 'Mozilla/5.0'})
+def funk(prox) :
+    #  urlpr = str("http://google.com")
+    start = time.perf_counter()
+    try :
+        r = requests.get("http://google.com", timeout=14, proxies={"http" : prox,"https" : prox })
+        t1 = time.perf_counter() - start
+        if r.status_code == 200 and t1 < 14 :
+            print(prox + " responded in " + str(round(t1, 2)) + " seconds")
+
+            return prox
+            r.close()
+
+    except HTTPError as http_err :
+        print(http_err)
+        pass
+
+    except Exception as err :
+        print(err)
+        pass
+
+
+res = requests.get('https://free-proxy-list.net/', headers={'User-Agent' : 'Mozilla/5.0'})
 soup = BeautifulSoup(res.text, "lxml")
 
 proxy_l = []
-for items in soup.select("#proxylisttable tbody tr"):
+for items in soup.select("#proxylisttable tbody tr") :
     proxy_list = ':'.join([item.text for item in items.select("td")[:2]])
     proxy_l.append(proxy_list)
 
 print(proxy_l)
 
-proxy_ok=[]
+proxy_ok = []
 # try :
-with concurrent.futures.ThreadPoolExecutor() as executor:
+long = 0
+with ThreadPoolExecutor(max_workers=4) as executor:
     futures = []
-    for item in proxy_l:
-         futures.append(executor.submit(funkcija,prox=item))
-    try :
 
-        for future in concurrent.futures.as_completed(futures) :
-            if future.result()!= None:
+    start = time.perf_counter()
+    futures = [executor.submit(funk, p) for p in proxy_l]
+
+    try :
+        for future in as_completed(futures):
+
+            if future.result() != None :
                 proxy_ok.append(future.result())
-    except Exception as e :
-        print(e)
+                long = len(proxy_ok)
+                print('Found '+str(long)+' working proxies.')
+            if long >= 10:
+                executor._threads.clear()
+                concurrent.futures.thread._threads_queues.clear()
+                break
+
+    except Exception as err :
+        print(err)
+        pass
+
+    finally :
+        executor.shutdown()
 
 print(proxy_ok)
