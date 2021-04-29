@@ -32,16 +32,16 @@ for items in soup.select("#proxylisttable tbody tr"):
 print(proxy_l)
 
 proxy_ok=[]
-# try :
 
-with concurrent.futures.ThreadPoolExecutor() as executor:
+
+with concurrent.futures.ThreadPoolExecutor(max_workers=50) as executor:
     futures = []
     start = time.perf_counter()
     futures = [executor.submit(funkcija, p) for p in proxy_l]
     try :
         for future in concurrent.futures.as_completed(futures, timeout=300):
 
-            if future.result() != None:
+            if future.result() is not None:
                 proxy_ok.append(future.result())
 
     except concurrent.futures.TimeoutError:
